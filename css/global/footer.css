@@ -14,12 +14,6 @@
   justify-self: center;
 }
 
-.contatos-lista li img {
-  height: 36px;
-  border-radius: 22%;
-  background: var(--cor-00);
-}
-
 .contatos-lista li a {
   display: flex;
   gap: 12px;
