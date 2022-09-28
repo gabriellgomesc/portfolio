@@ -1,0 +1,19 @@
+.botao {
+  padding: 5px 10px;
+  background: var(--cor-02);
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background: var(--cor-04);
+}
+
+.botao.main {
+  background: linear-gradient(45deg, #b6f829, #67dd0a);
+  color: #303727;
+}
+
+.botao.main:hover {
+  background: linear-gradient(#b6f829, #67dd0a);
+}

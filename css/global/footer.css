@@ -1,0 +1,33 @@
+.footer-bg {
+  background: #000;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.contatos-lista {
+  display: grid;
+  gap: 20px;
+  justify-self: center;
+}
+
+.contatos-lista li img {
+  height: 36px;
+  border-radius: 22%;
+  background: var(--cor-00);
+}
+
+.contatos-lista li a {
+  display: flex;
+  gap: 12px;
+  filter: grayscale(1) drop-shadow(0 0 0 rgba(0, 0, 0, 0.25));
+  transition: 0.3s;
+}
+
+.contatos-lista li a:hover {
+  transform: scale(1.015);
+  filter: none;
+}

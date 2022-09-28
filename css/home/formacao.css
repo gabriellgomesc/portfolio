@@ -1,0 +1,31 @@
+.formacao-bg {
+  background: var(--cor-12);
+}
+
+.formacao-cs-id {
+  display: grid;
+  gap: 24px;
+  align-self: start;
+}
+
+.img-titulo {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.formacao-lista {
+  display: grid;
+  gap: 20px;
+}
+
+.cursos-idiomas {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formacao-aprendizado {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}

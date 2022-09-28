@@ -1,0 +1,26 @@
+.introducao {
+  display: grid;
+  gap: 30px;
+}
+
+.introducao p {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.introducao h1 {
+  position: relative;
+}
+
+.introducao h1::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  background: url(../../img/dec/detalhe.svg) no-repeat;
+  width: 128px;
+  height: 128px;
+  z-index: -1;
+  left: -43px;
+  top: -25px;
+}

@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0 20px 0;
+}
+
+header nav ul {
+  display: flex;
+  gap: 16px;
+}
+
+header nav ul li a {
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+header nav ul li a:hover {
+  background: var(--cor-03);
+}

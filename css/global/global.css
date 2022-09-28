@@ -1,0 +1,20 @@
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.display-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: start;
+  gap: 80px;
+}
+
+.padding {
+  padding: 60px 0 60px 0;
+}
+
+.xp-fm-conteudo {
+  display: grid;
+  gap: 60px;
+}

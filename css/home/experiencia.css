@@ -1,0 +1,58 @@
+.experiencia-conteudo strong {
+  color: var(--cor-12);
+}
+
+.experiencia-projeto {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  align-items: start;
+  padding: 20px 40px 20px 20px;
+  background: var(--cor-01);
+  border: 1px solid var(--cor-02);
+  border-radius: 4px;
+  position: relative;
+  gap: 40px;
+}
+
+.experiencia-projeto::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#B6F829, #67DD0A);
+  border-radius: 1px;
+  left: -1px;
+  top: 20px;
+}
+
+.experiencia-projeto>div {
+  display: grid;
+  gap: 10px;
+}
+
+.botoes {
+  display: flex;
+  gap: 20px;
+}
+
+.experiencia-projeto ul {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.experiencia-projeto ul li {
+  padding: 5px 10px;
+  background: #fff;
+  flex: 1;
+  border-radius: 4px;
+}
+
+.empresa-ano {
+  font-weight: 400;
+  left: -100px;
+  position: absolute;
+  text-align: right;
+  width: 80px;
+}

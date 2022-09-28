@@ -1,0 +1,16 @@
+@import "./reset.css";
+
+/* utilidades */
+@import "./utilidades/componentes.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/cores.css";
+
+/* home */
+@import "./home/introducao.css";
+@import "./home/experiencia.css";
+@import "./home/formacao.css";
+
+/* global */
+@import "./global/header.css";
+@import "./global/footer.css";
+@import "./global/global.css";

@@ -1,0 +1,61 @@
+.font-header {
+  font: 700 3rem/calc(60/48) "Fira Sans", sans-serif;
+}
+
+.font-header02 {
+  font: 400 1.125rem/calc(60/18) "Fira Sans", sans-serif;
+}
+
+.font-header02.cursos {
+  line-height: calc(18/20);
+}
+
+.font-introducao {
+  font: 700 4.5rem/calc(80/72) "Fira Sans", sans-serif;
+}
+
+.font-introducao02 {
+  font: 400 1.5rem/1 "Fira Sans", sans-serif;
+}
+
+.subtitulo {
+  font: 700 8.75rem/1 "Fira Sans", sans-serif;
+  text-transform: uppercase;
+  word-break: break-all;
+}
+
+.paragrafo {
+  font: 400 1.5rem/calc(32/24) "Fira Sans", sans-serif;
+  max-width: 41ch;
+}
+
+.paragrafo02 {
+  font: 400 0.875rem/calc(20/14) "Fira Sans", sans-serif;
+}
+
+.paragrafo03 {
+  font: 400 1.5rem/calc(32/24) "Fira Sans", sans-serif;
+  max-width: 32ch;
+}
+
+.titulo03 {
+  font: 700 1.125rem/calc(20/18) "Fira Sans", sans-serif;
+}
+
+.titulo02 {
+  font: 700 0.875rem/calc(14/24) "Fira Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.botoes {
+  font-weight: 500;
+}
+
+.contatos {
+  font: 700 2.25rem/1 "Fira Sans", sans-serif;
+}
+
+.copy {
+  font: 400 1.125rem/1 "Fira Sans", sans-serif;
+  padding: 0 0 60px 0;
+}
