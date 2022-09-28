@@ -28,6 +28,6 @@
 }
 
 .contatos-lista li a:hover {
-  transform: scale(1.015);
+  transform: scale(1.05);
   filter: none;
 }

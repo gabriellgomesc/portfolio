@@ -13,11 +13,8 @@
   --cor-11: #292929;
   --cor-12: #141414;
 
-  --cor-p1: #ffbb00;
-  --cor-p2: #e4a30b;
-  --cor-p3: #a66f00;
-  --cor-p4: #664400;
-  --cor-p5: #332200;
+  --gradiente: linear-gradient(#b6f829, #67dd0a);
+  --gradiente02: linear-gradient(45deg, #b6f829, #67dd0a);
 }
 
 .cor-00 {
