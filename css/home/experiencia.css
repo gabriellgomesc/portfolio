@@ -11,7 +11,7 @@
   border: 1px solid var(--cor-02);
   border-radius: 4px;
   position: relative;
-  gap: 40px;
+  gap: 20px 40px;
 }
 
 .experiencia-projeto::before {
@@ -26,13 +26,14 @@
   top: 20px;
 }
 
-.experiencia-projeto>div {
+.experiencia-empresa, .experiencia-habilidades {
   display: grid;
   gap: 10px;
 }
 
 .botoes {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -55,4 +56,15 @@
   position: absolute;
   text-align: right;
   width: 80px;
+}
+
+@media (max-width: 1000px) {
+  .experiencia-projeto {
+    grid-template-columns: 1fr;
+    max-width: 438px;
+  }
+
+  .experiencia-habilidades {
+    display: none;
+  }
 }

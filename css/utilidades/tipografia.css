@@ -57,5 +57,55 @@
 
 .copy {
   font: 400 1.125rem/1 "Fira Sans", sans-serif;
-  padding: 0 0 60px 0;
+  padding: 0 20px 60px 20px;
+}
+
+@media (max-width: 1000px) {
+  .subtitulo {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .font-introducao {
+    font-size: 3rem;
+  }
+  
+  .subtitulo {
+    font-size: 3.75rem;
+  }
+
+  .contatos {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .subtitulo {
+    font-size: 3rem;
+  }
+
+  .font-header02 {
+    font-size: 1rem;
+  }
+
+  .font-introducao {
+    font-size: 2.5rem;
+  }
+
+  .font-introducao02 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .font-header02 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .font-header02 {
+    font-size: 0.9rem;
+  }
 }

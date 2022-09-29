@@ -29,3 +29,25 @@
   grid-template-columns: 1fr 1fr;
   gap: 80px;
 }
+
+@media (max-width: 1000px) {
+  .formacao-aprendizado {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 800px) {
+  .formacao-lista {
+    gap: 6px;
+  }
+
+  .formacao-cs-id {
+    gap: 12px;
+  }
+
+  .cursos-idiomas {
+    max-width: 500px;
+  }
+}

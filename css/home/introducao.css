@@ -15,12 +15,20 @@
 
 .introducao h1::before {
   content: "";
+  display: block;
   position: absolute;
-  display: inline-block;
-  background: url(../../img/dec/detalhe.svg) no-repeat;
-  width: 128px;
-  height: 128px;
+  background: url(../../img/dec/detalhe.svg) no-repeat center;
+  width: 140px;
+  height: 140px;
   z-index: -1;
-  left: -43px;
-  top: -25px;
+  left: -50px;
+  top: -30px;
+}
+
+@media (max-width: 600px) {
+  .introducao h1::before {
+    width: 30px;
+    height: 10px;
+    left: 0;
+  }
 }

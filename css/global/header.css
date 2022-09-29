@@ -1,21 +1,35 @@
-header {
+.header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 40px 0 20px 0;
 }
 
-header nav ul {
+.header ul {
   display: flex;
   gap: 16px;
 }
 
-header nav ul li a {
+.header li a {
   padding: 6px 12px;
   border-radius: 4px;
   transition: 0.3s;
 }
 
-header nav ul li a:hover {
+.header li a:hover {
   background: var(--cor-03);
+}
+
+@media (max-width: 800px) {
+  .header li a {
+    background: var(--cor-01);
+  }
+}
+
+@media (max-width: 400px) {
+  .header img {
+    width: 239.25px;
+    height: 30px;
+  }
 }
