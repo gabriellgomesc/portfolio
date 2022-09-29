@@ -37,8 +37,6 @@
   }
 }
 
-
-
 .xp-fm-conteudo {
   gap: 15px;
 }
@@ -54,5 +52,11 @@
 
   .container {
     max-width: 760px;
+  }
+}
+
+@media (max-width: 425px) {
+  .padding {
+    padding: 40px 15px;
   }
 }

@@ -14,27 +14,37 @@
   align-items: center;
 }
 
-.formacao-lista {
-  display: grid;
-  gap: 20px;
-}
 
-.cursos-idiomas {
+.cursos-idiomas,
+.formacao-aprendizado,
+.formacao-lista li {
   display: flex;
   justify-content: space-between;
 }
 
-.formacao-aprendizado {
+.formacao-lista {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 80px;
+  gap: 12px;
+}
+
+.formacao-lista li {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.formacao-lista li>p {
+  line-height: 1.25;
 }
 
 @media (max-width: 1000px) {
   .formacao-aprendizado {
-    grid-template-columns: 1fr;
-    gap: 24px;
-    max-width: 500px;
+    max-width: 600px;
+    gap: 50px;
+  }
+
+  .formacao-lista li {
+    gap: 20px;
   }
 }
 
@@ -49,5 +59,28 @@
 
   .cursos-idiomas {
     max-width: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .formacao-aprendizado {
+    display: grid;
+    gap: 24px;
+  }
+
+  .formacao-lista li {
+    gap: 100px;
+  }
+}
+
+@media (max-width: 400px) {
+  .formacao-lista li {
+    align-items: start;
+  }
+}
+
+@media (max-width: 325px) {
+  .formacao-lista li {
+    gap: none;
   }
 }
