@@ -2,6 +2,11 @@
   color: var(--cor-12);
 }
 
+.experiencias-box {
+  display: grid;
+  gap: 20px;
+}
+
 .experiencia-projeto {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
@@ -62,5 +67,11 @@
 
   .experiencia-habilidades {
     display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .experiencias-box {
+    gap: 10px;
   }
 }

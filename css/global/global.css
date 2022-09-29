@@ -20,25 +20,18 @@
   padding: 60px 20px;
 }
 
-.xp-fm-conteudo {
-  display: grid;
-  gap: 60px;
+.xp-fm-conteudo>p {
+  margin: 0 0 60px 0;
 }
 
 @media (max-width: 1000px) {
   .display-grid {
     grid-template-columns: 1fr;
   }
-}
-
-@media (max-width: 1000px) {
+  
   .container {
     max-width: 960px;
   }
-}
-
-.xp-fm-conteudo {
-  gap: 15px;
 }
 
 @media (max-width: 800px) {
@@ -52,6 +45,12 @@
 
   .container {
     max-width: 760px;
+  }
+}
+
+@media (max-width: 600px) {
+  .xp-fm-conteudo>p {
+    margin: 0 0 30px 0;
   }
 }
 
