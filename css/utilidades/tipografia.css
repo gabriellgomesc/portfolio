@@ -1,50 +1,47 @@
-.font-header {
-  font: 700 3rem/calc(60/48) "Fira Sans", sans-serif;
+.font-1-xs {
+  font: 400 0.875rem/calc(20/14) "Fira Sans", sans-serif;
 }
 
-.font-header02 {
+.font-1-xs-b {
+  font: 700 0.875rem/calc(14/24) "Fira Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.font-1-s {
   font: 400 1.125rem/calc(60/18) "Fira Sans", sans-serif;
 }
 
-.font-header02.cursos {
+.font-1-s.cursos {
   line-height: calc(18/20);
+}
+
+.font-1-s-b {
+  font: 700 1.125rem/calc(20/18) "Fira Sans", sans-serif;
+}
+
+.font-1-s-p {
+  font: 400 1.125rem/1 "Fira Sans", sans-serif;
+  padding: 0 20px 60px 20px;
 }
 
 .font-introducao {
   font: 700 4.5rem/calc(80/72) "Fira Sans", sans-serif;
 }
 
-.font-introducao02 {
-  font: 400 1.5rem/1 "Fira Sans", sans-serif;
-}
-
-.subtitulo {
-  font: 700 8.75rem/1 "Fira Sans", sans-serif;
-  text-transform: uppercase;
-  word-break: break-all;
-}
-
-.paragrafo {
+.font-1-m {
   font: 400 1.5rem/calc(32/24) "Fira Sans", sans-serif;
   max-width: 41ch;
 }
 
-.paragrafo02 {
-  font: 400 0.875rem/calc(20/14) "Fira Sans", sans-serif;
-}
-
-.paragrafo03 {
+.font-2-m {
   font: 400 1.5rem/calc(32/24) "Fira Sans", sans-serif;
   max-width: 32ch;
 }
 
-.titulo03 {
-  font: 700 1.125rem/calc(20/18) "Fira Sans", sans-serif;
-}
-
-.titulo02 {
-  font: 700 0.875rem/calc(14/24) "Fira Sans", sans-serif;
+.subtitulo-xg {
+  font: 700 8.75rem/1 "Fira Sans", sans-serif;
   text-transform: uppercase;
+  word-break: break-all;
 }
 
 .botoes {
@@ -55,13 +52,8 @@
   font: 700 2.25rem/1 "Fira Sans", sans-serif;
 }
 
-.copy {
-  font: 400 1.125rem/1 "Fira Sans", sans-serif;
-  padding: 0 20px 60px 20px;
-}
-
 @media (max-width: 1000px) {
-  .subtitulo {
+  .subtitulo-xg {
     font-size: 5rem;
   }
 }
@@ -70,8 +62,8 @@
   .font-introducao {
     font-size: 3rem;
   }
-  
-  .subtitulo {
+
+  .subtitulo-xg {
     font-size: 3.75rem;
   }
 
@@ -81,11 +73,11 @@
 }
 
 @media (max-width: 400px) {
-  .subtitulo {
+  .subtitulo-xg {
     font-size: 3rem;
   }
 
-  .font-header02 {
+  .font-1-s {
     font-size: 1rem;
   }
 
@@ -93,19 +85,19 @@
     font-size: 2.5rem;
   }
 
-  .font-introducao02 {
+  .font-1-m {
     font-size: 1.25rem;
   }
 }
 
 @media (max-width: 375px) {
-  .font-header02 {
+  .font-1-s {
     font-size: 1rem;
   }
 }
 
 @media (max-width: 350px) {
-  .font-header02 {
+  .font-1-s {
     font-size: 0.9rem;
   }
 }

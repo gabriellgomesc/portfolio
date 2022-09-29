@@ -6,7 +6,6 @@
   background: var(--cor-02);
   border-radius: 4px;
   transition: 0.3s;
-  max-width: max-content;
 }
 
 .botao:hover {
