@@ -52,10 +52,6 @@
 
 .empresa-ano {
   font-weight: 400;
-  left: -100px;
-  position: absolute;
-  text-align: right;
-  width: 80px;
 }
 
 @media (max-width: 1000px) {
