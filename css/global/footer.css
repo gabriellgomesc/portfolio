@@ -10,7 +10,7 @@
 
 .contatos-lista {
   display: grid;
-  gap: 20px;
+  gap: 30px;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -36,6 +36,7 @@
 
   .contatos-lista {
     display: flex;
+    gap: 20px;
   }
 
   .contatos-lista li a {
