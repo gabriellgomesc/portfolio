@@ -11,7 +11,7 @@
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   align-items: start;
-  padding: 20px;
+  padding: 20px 40px 20px 20px;
   background: var(--cor-01);
   border: 1px solid var(--cor-02);
   border-radius: 4px;
@@ -74,5 +74,11 @@
 @media (max-width: 600px) {
   .experiencias-box {
     gap: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .experiencia-projeto {
+    padding: 20px;
   }
 }
