@@ -39,7 +39,6 @@
 
 @media (max-width: 1000px) {
   .formacao-aprendizado {
-    max-width: 600px;
     gap: 50px;
   }
 
@@ -65,6 +64,7 @@
 @media (max-width: 600px) {
   .formacao-aprendizado {
     display: grid;
+    grid-template-columns: 1fr;
     gap: 24px;
   }
 

@@ -30,7 +30,7 @@
   }
   
   .container {
-    max-width: 960px;
+    max-width: 520px;
   }
 }
 
@@ -41,10 +41,6 @@
 
   .display-grid {
     gap: 20px;
-  }
-
-  .container {
-    max-width: 760px;
   }
 }
 
