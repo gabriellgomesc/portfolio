@@ -38,10 +38,6 @@
 }
 
 @media (max-width: 1000px) {
-  .formacao-aprendizado {
-    gap: 50px;
-  }
-
   .formacao-lista li {
     gap: 20px;
   }
