@@ -63,7 +63,8 @@
 @media (max-width: 1000px) {
   .experiencia-projeto {
     grid-template-columns: 1fr;
-    max-width: 438px;
+    max-width: 520px;
+    padding: 20px;
   }
 
   .experiencia-habilidades {
@@ -74,11 +75,5 @@
 @media (max-width: 600px) {
   .experiencias-box {
     gap: 10px;
-  }
-}
-
-@media (max-width: 425px) {
-  .experiencia-projeto {
-    padding: 20px;
   }
 }
