@@ -32,4 +32,8 @@
     left: 0;
     top: -20px;
   }
+
+  .introducao p {
+    gap: 6px;
+  }
 }
