@@ -20,3 +20,18 @@ function initNavegavcao() {
   }
 }
 initNavegavcao()
+
+function initMenu() {
+  const menuButton = document.querySelector(`[data-menu="button"]`)
+  const menuLista = document.querySelector(`[data-menu="lista"]`)
+
+  if (menuButton) {
+    function openMenu(event) {
+      menuLista.classList.toggle(`active`)
+      menuButton.classList.toggle(`active`)
+    }
+
+    menuButton.addEventListener(`click`, openMenu)
+  }
+}
+initMenu()

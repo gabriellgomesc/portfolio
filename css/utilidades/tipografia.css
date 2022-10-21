@@ -11,6 +11,10 @@
   font: 400 1.125rem/calc(60/18) "Fira Sans", sans-serif;
 }
 
+.font-1-s.menu {
+  line-height: 1;
+}
+
 .font-1-s.cursos {
   line-height: calc(18/20);
 }
@@ -37,6 +41,7 @@
   font-size: 1.25rem;
   max-width: 45ch;
 }
+
 .font-2-m {
   font: 400 1.5rem/calc(32/24) "Fira Sans", sans-serif;
   max-width: 32ch;

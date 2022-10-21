@@ -66,10 +66,21 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 1000px) {
   .habilidades-content img {
     height: 75px;
     width: 75px;
+  }
+
+  .habilidades-content {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .habilidades-content img {
+    height: 60px;
+    width: 60px;
   }
 
   .habilidades-content {

@@ -13,8 +13,9 @@
 }
 
 .header li a {
-  padding: 6px 12px;
+  padding: 10px 20px;
   border-radius: 4px;
+  text-transform: uppercase;
   transition: 0.3s;
 }
 
@@ -23,20 +24,28 @@
 }
 
 @media (max-width: 800px) {
-  .header li a {
-    background: var(--cor-01);
+  .header li a:hover {
+    background: transparent;
   }
 }
 
-@media (max-width: 519px) {
-  .header ul {
-    gap: 0 16px;
+@media (max-width: 600px) {
+  .header img {
+    width: 239.25px;
+    height: 30px;
   }
 }
 
 @media (max-width: 400px) {
   .header img {
-    width: 239.25px;
-    height: 30px;
+    width: 199.375px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 350px) {
+  .header img {
+    width: 159.5px;
+    height: 20px;
   }
 }

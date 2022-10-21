@@ -4,6 +4,7 @@
 @import "./utilidades/componentes.css";
 @import "./utilidades/tipografia.css";
 @import "./utilidades/cores.css";
+@import "./utilidades/menu-moblie.css";
 
 /* home */
 @import "./home/introducao.css";

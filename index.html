@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700&display=swap" rel="stylesheet">
   <script>document.documentElement.className = ' js'</script>
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.min.css">
 </head>
 
 <body>
@@ -22,7 +22,8 @@
       <img src="./img/logo.svg" width="319" height="40" alt="logo" title="Página inicial">
     </a>
     <nav>
-      <ul class="font-1-s cor-12">
+      <button data-menu="button" aria-expanded="false" aria-controls="menu" class="font-1-s cor-12 menu desativado">Menu</button>
+      <ul data-menu="lista" id="menu" class="font-1-s cor-12">
         <li><a href="#experiencia">Experiência</a></li>
         <li><a href="#formacao">Formação</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
@@ -207,8 +208,7 @@
         <p class="font-1-m cor-05">Como desenvolvedor web, tenho conhecimentos em <strong class="branco"
             lang="en">HTML</strong>, <strong class="branco" lang="en">CSS</strong> e <strong class="branco"
             lang="en">JavaScript</strong>.<br>
-          <span class="font-1-m cor-05">Selecione uma das habilidades para saber mais.</span>
-        </p>
+          <span class="font-1-m cor-05">Selecione uma das habilidades para saber mais.</span></p>
 
         <div class="habilidades-content">
           <ul class="lista-imagens js-tabmenu">
