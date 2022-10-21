@@ -30,7 +30,7 @@
   }
 
   .js [data-menu="button"].active::after {
-    transform: rotate(180deg);
+    transform: rotate(360deg);
     box-shadow: none;
   }
 
@@ -38,7 +38,7 @@
     display: none;
     position: absolute;
     background: var(--cor-04);
-    max-width: 160px;
+    width: 160px;
     right: 20px;
     border-radius: 4px;
     padding: 12px;
