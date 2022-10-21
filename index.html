@@ -12,8 +12,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="./css/style.min.css">
+  <script>document.documentElement.className = ' js'</script>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -25,6 +25,7 @@
       <ul class="font-1-s cor-12">
         <li><a href="#experiencia">Experiência</a></li>
         <li><a href="#formacao">Formação</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
@@ -41,9 +42,11 @@
     <h2 class="subtitulo-xg cor-10">Experiência</h2>
     <div class="xp-fm-conteudo">
       <p class="font-1-m cor-09">Desenvolvo pequenos projetos, como o Bikcraft e esse portfólio, utilizando apenas
-        <strong lang="en">HTML</strong>, <strong lang="en">CSS</strong> e <strong lang="en">JavaScript</strong>. Além
+        <strong class="preto" lang="en">HTML</strong>, <strong class="preto" lang="en">CSS</strong> e <strong
+          class="preto" lang="en">JavaScript</strong>. Além
         disso, trabalhei
-        com <strong lang="en">UX</strong> (User Experience) e <strong lang="en">UI Design</strong> (User Interface).
+        com <strong class="preto" lang="en">UX</strong> (User Experience) e <strong class="preto" lang="en">UI
+          Design</strong> (User Interface).
       </p>
       <ul class="experiencias-box">
         <li class="experiencia-projeto">
@@ -197,6 +200,50 @@
     </div>
   </section>
 
+  <section class="formacao-bg" id="habilidades">
+    <div class="container display-grid padding">
+      <h2 class="subtitulo-xg cor-06">Habilidades</h2>
+      <div class="xp-fm-conteudo">
+        <p class="font-1-m cor-05">Como desenvolvedor web, tenho conhecimentos em <strong class="branco"
+            lang="en">HTML</strong>, <strong class="branco" lang="en">CSS</strong> e <strong class="branco"
+            lang="en">JavaScript</strong>.<br>
+          <span class="font-1-m cor-05">Selecione uma das habilidades para saber mais.</span>
+        </p>
+
+        <div class="habilidades-content">
+          <ul class="lista-imagens js-tabmenu">
+            <li><img src="./img/habilidades/html-5.svg" alt="logo HTML5" width="100" height="100"></li>
+            <li><img src="./img/habilidades/css-3.svg" alt="logo CSS3" width="100" height="100"></li>
+            <li><img src="./img/habilidades/js.svg" alt="logo JavaScript" width="100" height="100"></li>
+          </ul>
+          <ul class="habilidades-sobre js-tabcontent">
+            <li>
+              <h1 class="contatos cor-00" lang="en">HTML 5</h1><br>
+              <p class="font-1-m none cor-05">O <strong class="branco" lang="en">HTML</strong> não é considerado uma
+                linguagem de programação, já que ele não pode criar funcionalidades
+                dinâmicas. Ao invés disso, com o HTML, os usuários podem <strong class="branco">criar e estruturar
+                  seções, parágrafos e links
+                  usando elementos, tags e atributos</strong>.</p>
+            </li>
+            <li>
+              <h1 class="contatos cor-00" lang="en">CSS 3</h1><br>
+              <p class="font-1-m none cor-05">O <strong class="branco" lang="en">CSS</strong> separa o conteúdo da
+                <strong class="branco">representação visual do <span lang="en">site</span></strong>. Utilizando o
+                <strong class="branco" lang="en">CSS</strong> é possível alterar a cor do texto e do fundo, fonte e
+                espaçamento entre parágrafos. Também pode
+                criar tabelas, <span lang="en">layouts responsivos (para diversos dispositivos)</span> etc.
+              </p>
+            </li>
+            <li>
+              <h1 class="contatos cor-00" lang="en">JavaScript</h1><br>
+              <p class="font-1-m none cor-05">O <strong class="branco" lang="en">JS</strong> ou <strong class="branco"
+                  lang="en">JavaScript</strong> é uma <strong class="branco">linguagem de programação</strong> de
+                alto-nível, criada no meio da década de 90. O objetivo, ao criar essa linguagem, era facilitar processos dentro de páginas <span lang="en">web</span>, tornado a <strong class="branco">programação de animações e alertas</strong> mais simples.</p>
+            </li>
+          </ul>
+        </div>
+  </section>
+
   <footer class="footer-bg" id="contato">
     <div class="container">
       <div class="footer padding">
@@ -213,6 +260,8 @@
       <p class="font-1-s-p cor-06">© Todos os direitos reservados | 2022</p>
     </div>
   </footer>
+
+  <script src="./script/script.js"></script>
 </body>
 
 </html>

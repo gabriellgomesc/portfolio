@@ -33,6 +33,10 @@
   max-width: 41ch;
 }
 
+.font-1-m.none {
+  font-size: 1.25rem;
+  max-width: 45ch;
+}
 .font-2-m {
   font: 400 1.5rem/calc(32/24) "Fira Sans", sans-serif;
   max-width: 32ch;

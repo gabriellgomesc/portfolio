@@ -9,6 +9,7 @@
 .header ul {
   display: flex;
   gap: 16px;
+  flex-wrap: wrap;
 }
 
 .header li a {
@@ -24,6 +25,12 @@
 @media (max-width: 800px) {
   .header li a {
     background: var(--cor-01);
+  }
+}
+
+@media (max-width: 519px) {
+  .header ul {
+    gap: 0 16px;
   }
 }
 

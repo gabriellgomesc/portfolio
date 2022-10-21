@@ -9,6 +9,7 @@
 @import "./home/introducao.css";
 @import "./home/experiencia.css";
 @import "./home/formacao.css";
+@import "./home/habilidades.css";
 
 /* global */
 @import "./global/header.css";

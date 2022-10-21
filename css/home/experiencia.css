@@ -1,5 +1,9 @@
-.xp-fm-conteudo strong {
+.xp-fm-conteudo strong.preto {
   color: var(--cor-12);
+}
+
+.xp-fm-conteudo strong.branco {
+  color: var(--cor-00);
 }
 
 .experiencias-box {
