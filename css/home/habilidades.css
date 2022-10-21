@@ -3,8 +3,13 @@
   gap: 30px;
 }
 
+.habilidades-content h1 {
+  position: relative;
+}
+
 .habilidades-content h1::after {
   content: "";
+  position: absolute;
   display: inline-block;
   position: absolute;
   width: 10%;
