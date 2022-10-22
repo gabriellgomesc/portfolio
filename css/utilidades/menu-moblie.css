@@ -30,14 +30,14 @@
   }
 
   .js [data-menu="button"].active::after {
-    transform: rotate(360deg);
+    transform: rotate(180deg);
     box-shadow: none;
   }
 
   .js [data-menu="lista"] {
     display: none;
     position: absolute;
-    background: var(--cor-04);
+    background: var(--cor-03);
     width: 160px;
     right: 20px;
     border-radius: 4px;
