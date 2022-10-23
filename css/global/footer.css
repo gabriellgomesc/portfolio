@@ -1,5 +1,6 @@
 .footer-bg {
   background: #000;
+  padding: 60px 0;
 }
 
 .footer {
@@ -27,6 +28,10 @@
 }
 
 @media (max-width: 600px) {
+  .footer-bg {
+    padding: 0;
+  }
+  
   .footer {
     grid-template-columns: 1fr;
     gap: 20px;
