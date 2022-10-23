@@ -13,7 +13,6 @@
 
 .header li a {
   padding: 10px 20px;
-  border-radius: 4px;
   text-transform: uppercase;
   transition: 0.3s;
 }
