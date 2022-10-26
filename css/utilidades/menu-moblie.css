@@ -59,6 +59,27 @@
     text-transform: uppercase;
   }
 
+  @media (max-width: 450px) {
+    .js [data-menu="button"]::after {
+      height: 3px;
+      width: 20px;
+      background: var(--cor-12);
+      box-shadow: 0 6px #141414, 0 -6px #141414;
+      border-radius: 3px;
+    }
+
+    .js [data-menu="button"] {
+      background: transparent;
+      border: none;
+      padding: 20px;
+      border-radius: 4px;
+    }
+
+    .js [data-menu="button"] span {
+      display: none;
+    }
+  }
+
   @keyframes showMenu {
     from {
       opacity: 0;
