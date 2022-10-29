@@ -1,4 +1,4 @@
-function initNavegavcao() {
+export default function initNavegacao() {
   const tabMenu = document.querySelectorAll(`.js-tabmenu li`)
   const activeClass = `ativo`
   const tabContent = document.querySelectorAll(`.js-tabcontent li`)
@@ -17,17 +17,3 @@ function initNavegavcao() {
     })
   }
 }
-initNavegavcao()
-
-function initMenu() {
-  const menuButton = document.querySelector(`[data-menu="button"]`)
-  const menuLista = document.querySelector(`[data-menu="lista"]`)
-  if (menuButton) {
-    function openMenu(event) {
-      menuLista.classList.toggle(`active`)
-      menuButton.classList.toggle(`active`)
-    }
-    menuButton.addEventListener(`click`, openMenu)
-  }
-}
-initMenu()
