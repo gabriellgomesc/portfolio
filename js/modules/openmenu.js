@@ -6,11 +6,15 @@ export default function initMenu() {
   const clique = ['click']
   if (menuButton) {
     function openMenu() {
+      menuLista.classList.remove('desactive')
+      menuButton.classList.remove('desactive')
       menuLista.classList.add('active')
       menuButton.classList.add('active')
       outsideClick(menuLista, clique, () => {
         menuLista.classList.remove(`active`)
         menuButton.classList.remove(`active`)
+        menuLista.classList.add('desactive')
+      menuButton.classList.add('desactive')
       })
     }
     clique.forEach((evento) => {
