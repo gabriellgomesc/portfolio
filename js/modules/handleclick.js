@@ -1,7 +1,7 @@
 export default function handleClick(event) {
   event.preventDefault()
   this.classList.add('active')
-  outsideClick(this, ['touchstart', 'click'], () => {
+  outsideClick(this, ['click'], () => {
     this.classList.remove('active')
   })
 }
