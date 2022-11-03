@@ -41,7 +41,7 @@
     width: 160px;
     right: 20px;
     border-radius: 4px;
-    padding: 12px;
+    padding: 6px 12px;
     box-shadow: -2px 2px 2px 0 rgba(0, 0, 0, 0.2);
     z-index: 2;
   }
