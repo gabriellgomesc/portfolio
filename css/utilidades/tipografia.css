@@ -11,10 +11,6 @@
   font: 400 1.125rem/calc(60/18) "Fira Sans", sans-serif;
 }
 
-.font-1-s.menu {
-  line-height: 1;
-}
-
 .font-1-s.cursos {
   line-height: calc(18/20);
 }
@@ -84,10 +80,6 @@
 @media (max-width: 400px) {
   .subtitulo-xg {
     font-size: 3rem;
-  }
-
-  .font-1-s {
-    font-size: 1rem;
   }
 
   .font-introducao {
