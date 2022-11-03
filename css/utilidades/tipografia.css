@@ -8,7 +8,7 @@
 }
 
 .font-1-s {
-  font: 400 1.125rem/calc(60/18) "Fira Sans", sans-serif;
+  font: 400 1.125rem/1.5 "Fira Sans", sans-serif;
 }
 
 .font-1-s.cursos {
@@ -91,14 +91,8 @@
   }
 }
 
-@media (max-width: 375px) {
-  .font-1-s {
-    font-size: 1rem;
-  }
-}
-
 @media (max-width: 350px) {
-  .font-1-s {
-    font-size: 0.9rem;
+  .font-1-s.cursos {
+    font-size: 1rem;
   }
 }
