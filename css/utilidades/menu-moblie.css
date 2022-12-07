@@ -50,7 +50,7 @@
     display: block;
     animation: showMenu 0.3s forwards;
   }
-  
+
   .js [data-menu="lista"].desactive {
     display: block;
     animation: hiddenMenu 0.3s forwards;
@@ -95,7 +95,7 @@
   @keyframes showMenu {
     from {
       opacity: 0;
-      transform: translate3d(-30px, 0, 0);
+      transform: translate3d(180px, 0, 0);
     }
 
     to {
@@ -112,7 +112,7 @@
 
     to {
       opacity: 0;
-      transform: translate3d(-30px, 0, 0);
+      transform: translate3d(192px, 0, 0);
     }
   }
 }
